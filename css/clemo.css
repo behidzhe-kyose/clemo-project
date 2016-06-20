@@ -1,0 +1,363 @@
+	/* ---- html ---- */
+html{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: "monospace";
+	font-size: 16px;
+}
+
+	/* ----  header  ---- */ 
+header{
+	margin-top: 30px;
+	position: absolute;
+	font-size: 2em;
+}
+
+	/* ---- nav ---- */
+#navBar{
+	position: relative;
+	float: right;
+	clear: right;
+	margin-top: 30px;
+}
+#navBar li{
+	display: inline-block;
+	
+}
+#navBar li a{
+	text-decoration: none;
+	color: #989898;
+	margin-left: 35px;
+	font-size: 1.33em;
+	font-family: montserrat Light;
+}
+
+	/* ----  Main  ---- */
+	/* ----  section ---- */
+h1{
+	padding-top: 100px ;
+	font-size: 2.3em ;
+	font-weight: bolder ;
+}
+h2{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	font-size: 3.5em ;
+	font-family: lato light ;
+	word-spacing: 5px;
+}
+	/* ---- slider ---- */
+#slider{
+	background-color: #ffe1bd;
+	width: 100%;
+	height: 520px;
+	font-weight: bold;
+	font-family: montserrat light;
+	font-size: 1.5em;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+}
+#get-btn{
+	margin-top: 80px;
+	border-radius: 30px;
+	background-color: black;
+	color: white;
+	font-family: nexa light;
+	padding: 15px 35px 15px 35px;
+}
+	/* ---- services  ---- */ 
+.box{
+	width: 40%;
+	height: auto;
+}
+.right-text{
+	float: right;
+	width: 40%;
+	height: auto;
+	margin-right: 10%;
+}
+.left-text{
+	float: left;
+	width: 40%;
+	height: auto;
+	margin-right: 10%;
+}
+#creative-kitchen, #art-installation{
+	margin-bottom: 100px;
+}
+h3{
+	font-family: lato light ;
+	font-size: 2.6em ;
+}
+h3 strong{
+	font-size: 1.5em;
+}
+
+.left-text img, .right-text img{
+	margin: 20px 0 20px 0;
+}
+
+#services p, #review .right-text p{
+	font-family: lato-light ;
+	color: #656565;
+	font-size: 1.5em;
+}
+
+.btn-default{
+	border-radius: 30px ;
+	color: white;
+	font-family: nexa light;
+	font-weight: bold ;
+	padding: 15px 35px 15px 35px;
+	margin-top: 30px;
+}
+#right-btn{
+	float: right;
+	position: relative;
+	top: -230px;
+	font-size: 38px;
+	font-weight: bolder;
+	opacity: 0.5;
+}
+#left-btn{
+	float: left;
+	position: relative;
+	top: -230px;
+	font-size: 38px;
+	font-weight: bolder;
+	opacity: 0.5;
+}
+	/* ----best work ----*/
+#lrn-btn{
+	border-radius: 30px;
+	background-color: black;
+	color: white;
+	font-family: nexa light;
+	padding: 15px 35px 15px 35px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+}
+	/* ----best team  ----*/
+#best-team{
+	background-color: #ffe1bd;
+}
+#team{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+#team li{
+	display: inline-block;
+	margin: 5%;
+}
+h4{
+	font-weight: bolder ;
+	font-size: 2em ;
+}
+h5{
+	font-size: 1.3em ;
+}
+.glyphicon-menu-left, .glyphicon-menu-right{
+	font-size: 26px;
+	position: relative;
+	left: 90%;
+	right: 90%;
+}
+	/* ---- clients say's ----*/
+#review-logo{
+	margin-top: 20%;
+}
+#logos li{
+	list-style: none;
+	display: inline-block; 
+	margin-right: 2%;
+}
+
+	/* ---- get in touch ---- */
+#get-in-touch{
+	background-color: black;
+	color: white;
+}
+#contact-info li{
+	list-style: none;
+	margin: 3%;
+	font-family: montserrat light;
+}
+#contacts{
+	margin-top: 5%;
+}
+#social ul li{
+	list-style: none;
+	display: inline-block; 
+	margin: 0.5%;
+}
+ #social{
+	position: absolute;
+	width: 50%;
+	margin: 1%;
+}
+#calendar {
+	position: relative;
+	top: -240px;
+	left:45%;
+	background-color: lightgray;
+	width: 605px;
+	height: 395px;
+	font-size: 24px;
+}
+
+	/*  ---- footer  ---- */
+#footer{
+	text-align: center;
+}
+#footer p{
+	font-weight: bold;
+	font-family: lato ;
+	font-size: 1.7em;
+}
+#footer span{
+	font-weight: normal;
+	font-family: lato;
+	font-size: 0.6em;
+	color: #656565;
+}
+
+
+
+	/* ---- Media Query ------*/
+@media only screen and (max-width: 1584px){
+	#team li{
+		display: inline-block;
+		margin: 1%;
+	}
+	#logos li{ 
+		width: 47%;
+		margin-bottom: 2%;
+	}
+	#calendar {
+		top: -150px;
+		left:55%;
+		width: 40%;
+		height: auto;
+		font-size: 14px;
+	}
+}
+
+
+@media only screen and (max-width: 960px){
+	.right-text h3,.left-text h3, h3 strong{
+		font-size: 1.3em;
+	}
+	.right-text{
+		font-size: 12px;
+	}
+	.left-text{
+		font-size: 12px;
+	}
+	.box{
+		width: 40%;
+		height: auto;
+	}
+	.col-md-4{
+		width: 80%;
+	}
+	#team li{
+		display: inline-block;
+		margin: 0px;
+	}
+	#team li .img-circle{
+		display: inline-block;
+		width: 50%;
+	}
+	#review .right-text p{
+		font-size: 13px;
+	}
+	#review{
+		margin-bottom:20px; 
+	}
+	#social ul li{
+		display: inline-block; 
+		margin: 0.2%;
+	}
+	 #social{
+		width: 100%;
+		margin: 1%;
+	}
+	#calendar {
+		top: -120px;
+		left:55%;
+		width: 45%;
+		height: auto;
+		font-size: 14px;
+	}
+	#footer{
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	#navBar{
+		float: none;
+		position: relative;
+		left: 50%;
+	}
+	#navBar li{
+		display: block;
+	}
+	.right-text{
+		float: none;
+		width: 100%;
+	}
+	.left-text{
+		float: none;
+		width: 100%;
+	}
+	.box{
+		width: 100%;
+		height: auto;
+	}
+	.col-md-4{
+		width: 100%;
+	}
+	#team li{
+		display: block;
+
+	}
+	#team li .img-circle{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		text-align: center;
+	}
+	#review .left-text h4, #review .left-text img, #review .left-text h5{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		text-align: center;
+	}
+	#logos li{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-right: 0px;
+	}
+	#calendar {
+		top: 50px;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		height: auto;
+		font-size: 14px;
+	}
+	#footer{
+		margin-top: 50px;
+	}
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>clemo.</title>
+	<link rel="stylesheet" type="text/css" href="css/clemo.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/calendar.js"></script>
+	<script type="text/javascript" src="js/highlightToday.js "></script>	
+</head>
+<body>
+	<header>
+		<strong>clemo.</strong>
+	</header>
+	<nav>
+		<ul id="navBar" float="right">
+			<li><a href="#">about us</a></li>
+			<li><a href="#">services</a></li>
+			<li><a href="#">works</a></li>
+			<li><a href="#">blog</a></li>
+			<li><a href="#">contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<br />
+			<div id="slider">
+				<h1 id="first-slide">we are clemo. 
+					<br /> 
+					<img src="images/line.png"/>
+				</h1> 
+				<span id="span">
+					<p>professionals <br /> in the creative industries</p>
+				</span>
+				<button id="get-btn">get in touch</button>
+				<br />
+				<button type="button" id="left-btn" class="btn btn-default" onclick="showSlide('prev');"> &lt; </button>
+				<button type="button" id="right-btn" class="btn btn-default" onclick="showSlide('next');"> &gt; </button>
+			</div>
+
+			<div id="services">
+				<div class="title">
+					<h2> what we do? </h2>
+				</div>
+
+				<div id="creative-kitchen">
+					<img class="box" src="images/box.png" width="560px" height="560" />
+					<div class="right-text">
+						<h3> creative <br /> <strong> kitchen </strong></h3>
+						<img src="images/line.png"/> <br />
+						<p>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque architecto beatae vitae dicta sunt explicabo. <br /> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aur fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+						</p>
+						<button class="btn btn-default btn-lg">learn more</button>
+					</div>
+				</div>
+
+				<div id="art-installation">
+					<div class="left-text">
+						<h3> art <br /><strong> installation</strong></h3>
+						<img src="images/line.png"/> <br />
+						<p>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque architecto beatae vitae dicta sunt explicabo. <br /> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aur fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+						</p>
+						<button class="btn btn-default btn-lg">learn more</button>
+					</div>
+					<img class="box" src="images/box.png" width="560px" height="560" />
+				</div>
+				
+				<div id="print-design">
+					<img class="box" src="images/box.png" width="560px" height="560" />
+					<div class="right-text">
+						<h3> print <br /> <strong> design </strong></h3>
+						<img src="images/line.png"/> <br />
+						<p>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque architecto beatae vitae dicta sunt explicabo. <br /> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aur fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+						</p>
+						<button class="btn btn-default btn-lg">learn more</button>
+					</div>
+				</div>
+			</div>
+
+			<div id="our-best-work">
+				<div class="title">
+					<h2> our best work </h2>
+				</div>
+				<div class="container">
+					<div class="row">
+						<img class="col-md-4" src="images/box.png" width="364" height="364" />
+						<img class="col-md-4" src="images/box.png" width="364" height="590" />
+						<img class="col-md-4" src="images/box.png" width="364" height="364" />
+					</div> <br />
+					<div class="row">
+						<img class="col-md-4 box" src="images/box.png" width="364" height="590" />
+						<img class="col-md-4 box" src="images/box.png" width="364" height="364" />
+						<img class="col-md-4 box" src="images/box.png" width="364" height="590" />
+					</div>
+				</div>
+				<div>
+					<button id="lrn-btn">learn more</button>
+				</div>
+			</div>
+
+			<div id="best-team">
+				<div class="title">
+					<h2>best team</h2>
+				</div>
+				<div>
+					<ul id="team">
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-menu-left"></span>
+							</a>
+						</li>
+						<li>
+							<img class="img-responsive img-circle" src="images/box.png" width="168px" height="168px" />
+							<h4>paul hall </h4>
+							<img src="images/line.png"/>
+							<h5>art director</h5>
+						</li>
+						<li>
+							<img class="img-responsive img-circle" src="images/box.png" width="168px" height="168px" />
+							<h4>joshua spencer</h4>
+							<img src="images/line.png"/>
+							<h5>founder</h5>
+						</li>
+						<li>
+							<img class="img-responsive img-circle" src="images/box.png" width="168px" height="168px" />
+							<h4>diane lewis </h4>
+							<img src="images/line.png"/>
+							<h5>artist designer</h5>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+
+			<div id="clients-says">
+				<div class="title">
+					<h2>clients say's</h2>
+				</div>
+				<div id="review">
+					<div class="left-text" style="text-align: right;">
+						<h4>frank sims</h4>
+						<img src="images/line.png"/>
+						<h5>photographer</h5>
+					</div>
+					<div class="right-text">
+						<p>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque architecto beatae vitae dicta sunt explicabo. <br /> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aur fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+						</p>
+					</div>
+				</div>
+				<div id="review-logo">
+					<ul id="logos">
+						<li><img src="images/box.png" width="266px" height="140px" /></li>
+						<li><img src="images/box.png" width="266px" height="140px" /></li>
+						<li><img src="images/box.png" width="266px" height="140px" /></li>
+						<li><img src="images/box.png" width="266px" height="140px" /></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="get-in-touch">
+				<div>
+					<h2>get in touch</h2>
+				</div>
+				<div id="contacts">
+					<ul id="contact-info">
+						<li><i class="glyphicon glyphicon-map-marker"></i> 23 Mulholland Drive, Suite 721. Los Angelis 10010 <br /> 100 S. Main Street, Los Angelis 90012</li>
+						<li><i class="glyphicon glyphicon-phone"></i> +1-670-567-5590</li>
+						<li><i class="glyphicon glyphicon-envelope"></i> hello@clemocreative.com </li>
+					</ul>
+				</div>
+				<div id="social">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/facebook-icon.png" width="40px" height="40px" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/tweeter-icon.png" width="40px" height="40px" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/google-icon.png" width="40px" height="40px" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/pinterest-icon.png" width="40px" height="40px" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/instagram-icon.png" width="40px" height="40px" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div id="calendar">
+					<script type="text/javascript">calendar();</script>
+					<script type="text/javascript"> highlightToday();</script>
+				</div>
+
+		</section>
+		<footer>
+			<div id="footer">
+				<p> &copy; 2016 clemo. <br /> 
+					<span>all right reserved</span>
+				</p>
+			</div>
+		</footer>
+	</main>
+	<script>
+		var slides = [
+			['we are clemo <br /><img src="images/line.png">', 'profesionals <br /> in the creative industries <br />', 'get in touch'],
+			['about us <br /> <img src="images/line.png"> ', 'Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit <br />', 'get in touch'],
+			['services <br /> <img src="images/line.png">', 'Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit <br />', 'get in touch'],
+		];
+
+		var s_index=0;
+
+		function showSlide(btn_dir)
+		{
+			if (btn_dir=='prev')
+			{
+				if (s_index>0) 
+				{
+					s_index--;
+				}
+			}
+			if (btn_dir=='next')
+			{
+				if (s_index<slides.length-1) 
+				{
+					s_index++;
+				}
+			}			
+			var qts=document.getElementById('first-slide');
+			qts.innerHTML = slides[s_index][0];
+			var qts=document.getElementById('span');
+			qts.innerHTML = slides[s_index][1];
+			var qts=document.getElementById('get-btn');
+			qts.innerHTML = slides[s_index][2];
+		}
+	</script>
+</body>
+</html>
